@@ -1,12 +1,12 @@
-# BlackFoxy AI Configuration File
+import os
 
-BOT_TOKEN = 8636421845:AAGCg88beDXQB4cABO6-dc-fIQYMb8jxyXA
+# Telegram Bot Token
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-# 🤖 Bot name
+# Bot Name
 BOT_NAME = "BlackFoxy AI"
 
-# 🌍 Language settings
+# Language settings
 DEFAULT_LANGUAGE = "en"
 
-# ⚙️ Mode settings
 DEBUG_MODE = True
